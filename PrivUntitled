@@ -26,7 +26,17 @@
 --UntitledSection.AddLabelButton = function(LabelText, ButtonText, Function)
 --UntitledSection.AddLabelTextbox = function(LabelText, TextBoxText, Function)
 ----------------
-
+--Some stuff I've already done:
+--local Untitled = loadstring(game:HttpGet("    "))()
+--local UV1 = Untitled.V1
+--local Window1 = UV1.MakeWindow("A")
+--local Window2 = UV1.MakeWindow("A")
+--local Wnd1Txt = Window1.AddLabel("A, "..game.Players.LocalPlayer.Name)
+--local Wnd1Txt = Window1.AddButton("A", function() print("A") end)
+--local Wnd1Tb = Window1.AddTextbox("A", function(Text) print("A: "..Text) end)
+--local Wnd2Checkbox = Window2.AddCheckbox("A",function(Checked) print("A: "..tostring(Checked)) end)
+--local Wnd2Dropdown = Window2.AddDropdown({"A","A","A","A", "A"},function(Selected) print("UWU"..Selected) end)
+--local Wnd2HybridBtn = Window1.AddLabelButton("A", "A", function() print("A") end)
 
 
 local Untitled = {}
